@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="aAX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/Visualpharm-Finance-Coins.256.ico.png" type="image/x-icon">
+    <title>Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="assets/css/Projeto.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Gorjeta</h2>
+        <label for="ValordaConta">Valor da conta a ser paga:</label>
+        <input type="number" id="ValordaConta" placeholder="Valor da Conta" required>
+
+        <label for="percentualGorjeta">Porcentagem da Gorjeta:</label>
+        <input type="number" id="percentualGorjeta" placeholder="Porcentagem da Gorjeta" required>
+
+        <button onclick="calcularGorjeta()">Calcular Gorjeta</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+    <script src="assets/js/Projeto.js"></script>
+</body>
+</html>

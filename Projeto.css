@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin: 20px;
+    padding: 30px;
+    background-image: url(https://img.freepik.com/fotos-premium/cifrao-dourado_118019-880.jpg);
+    background-size: 2000px;
+    color: aliceblue;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 1000px #e2df09;
+    background-image: url(https://media3.giphy.com/media/vZtgVB8BLWMaAmGaF2/giphy.gif?cid=6c09b952l6fgg14disdh8gr6wh2uu6uzvom6y5adxvq1phd5&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+    background-size: 1110px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+button {
+    background-color: #cec329;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+.result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    border-color: #ffee00;
+}
